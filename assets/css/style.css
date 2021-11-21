@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card-principal{
+    background-color: rgb(194, 194, 194);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+    border-radius: 5px;
+}
+.card-calculadora{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    padding: 20px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+/* ----------FORM--------------- */
+
+.card-form{
+    align-items: center;
+    
+}
+.titulo{
+    text-align: center;
+    align-items: center;
+    color: rgb(121, 80, 148);
+}
+.div-titulo{
+    margin-top: 10px;
+    padding: 5px;
+   
+}
+
+#botao{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+
+.entrada{
+    margin-top: 20px;
+}
+#entrada1{
+    width: 120px;
+}
+#entrada2{
+    width: 120px;
+}
+table tbody tr{
+    background-color: rgb(255, 255, 255);
+}
+/* ------------------------------------------------------ */
+
+.classificacao{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+@media screen and (max-width: 800px){
+    
+    .card-calculadora{
+        width: 350px;
+        height: 450px;
+    }
+
+    .card-principal{
+        width: 400px;
+        height: 550px;
+    }
+
+    .card-form{
+        width: 300px;
+        height: 200px;
+    }
+
+    #botao{
+        margin-left: 20%;
+    }
+
+    .classificacao{
+        font-size: 10px;
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .card-calculadora{
+        width: 300px;
+        height: 400px;
+    }
+
+    .card-principal{
+        width: 350px;
+        height: 500px;
+    }
+
+    .card-form{
+        width: 250px;
+        height: 200px;
+    }
+
+    #botao{
+        width: 70px;
+        align-items: center;
+        font-size: 12px;
+    }
+    .botoes{
+        margin-left: 5%;
+    }
+    .form-div{
+        margin: 0px;
+        padding: 10px;
+    }
+    .entrada{
+        margin-top: 0px;
+    }
+    #entrada1{
+        width: 70px;
+        height: 30px;
+    }
+    #entrada2{
+        width: 70px;
+        height: 30px;
+    }
+    #resultado{
+        width: 70px;
+        height: 30px;
+    }
+    
+    span{
+        height: 30px;
+    }
+    .classificacao{
+        font-size: 8px;
+        text-align: center;
+        width: 250px;
+        margin-top: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 340px){
+    
+    .card-principal{
+        width: 250px;
+        height: 400px;
+    }
+
+    .card-calculadora{
+        width: 200px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .card-form{
+        width: 200px;
+        height: 150px;
+        padding: 0%;
+        margin-bottom:0px;
+    }
+    #botao{
+        width: 70px;
+        height: 20px;
+        padding: 0 0 0 0;
+        align-items: center;
+        font-size: 10px;
+    }
+    .botoes{
+        margin-left: 5%;
+    }
+    #entrada1{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    #entrada2{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    #resultado{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    span{
+        height: 20px;
+    }
+    .classificacao{
+        font-size: 6px;
+        text-align: center;
+        width: 200px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 260px){
+    
+    .card-principal{
+        width: 200px;
+        height: 300px;
+    }
+    .titulo{
+        margin: 0%;
+        font-size: 20px;
+    }
+    .card-calculadora{
+        width: 180px;
+        height: 170px;
+        padding: 10px;
+    }
+
+    .card-form{
+        width: 170px;
+        height: 170px;
+    }
+    
+    #botao{
+        margin-left: 25%;
+        width: 70px;
+        height: 20px;
+        padding: 0 0 0 0;
+        align-items: center;
+        font-size: 10px;
+    }
+    #entrada1{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    #entrada2{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    span{
+        height: 20px;
+    }
+}
+

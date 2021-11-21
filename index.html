@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/" type="image/x-icon" />
+
+    <link rel="icon" type="image/png" sizes="16x16"  href="/assets/img/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- -------------------------------BOOTSTRAP----------------------------------- -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- ----------------------------------------------------------------------------- -->
+    <title>IMC - Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <div class="card-principal">
+            <div class="div-titulo">
+                <h1 class="titulo">Calculadora IMC</h1>
+            </div>
+
+            <div class="card-calculadora">
+                <div class="card-form">
+                    <form action="">
+                        <div class="form-div">
+
+                            <div class="input-group mb-4 entrada">
+                                <input type="text" class="form-control entrada1" id="entrada1" placeholder="Insira a altura"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2">M</span>
+                            </div>
+
+                            <div class="input-group mb-4 entrada">
+                                <input type="text" class="form-control entrada2" id="entrada2" placeholder="Insira o Peso"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2 span">KG</span>
+                            </div>
+
+                            <div class="input-group mb-1 entrada">
+
+                                <input class="form-control" id="resultado" type="text" >
+                            </div>
+                            <div class="btn-group botoes">
+
+                                <button type="submit" onclick="calculo(); return false;" class="btn btn-secondary"
+                                    id="botao">Verificar</button>
+                                <button type="text" onclick="window.location.reload();" class="btn btn-danger"
+                                    id="botao">Limpar</button>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="classificacao">
+                    <table class="table">
+                        <thead>
+                            <tr class="table-secondary">
+                                <th scope="col">IMC</th>
+                                <th scope="col">Classificação</th>
+                                <th scope="col">Grau de Obesidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="nivel1">
+                                <td>Menor que 18,5</td>
+                                <td>Magreza</td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="nivel2">
+                                <td>Entre 18,5 e 24,9</td>
+                                <td>Normal </td>
+                                <td>0</td>
+                            </tr>
+                            <tr id="nivel3">
+                                <td>Entre 25,0 e 29,9 </td>
+                                <td>Sobrepeso</td>
+                                <td>I</td>
+                            </tr>
+                            <tr id="nivel4">
+                                <td>Entre 30,0 e 39,9</td>
+                                <td>Obesidade </td>
+                                <td>II</td>
+                            </tr>
+                            <tr id="nivel5">
+                                <td>Maior que 40,0 </td>
+                                <td>Obesidade Grave</td>
+                                <td>III</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
