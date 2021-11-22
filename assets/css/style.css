@@ -2,6 +2,16 @@
     margin: 0%;
     padding: 0%;
 }
+
+/* --------Imagem de fundo do site-------- */
+
+body{
+    background-image: url("/assets/img/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------------- */
 .card-principal{
     background-color: rgb(194, 194, 194);
     width: 600px;
