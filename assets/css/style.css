@@ -5,11 +5,9 @@
 
 /* --------Imagem de fundo do site-------- */
 
-body{
-
+.body-class{
     background-color: rgba(17, 17, 17, 0.904);
     background-size: 100%;
-
 }  
 
 /* --------------------------------------- */
