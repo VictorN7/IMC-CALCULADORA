@@ -14,11 +14,11 @@
 
 
 
-## 🚀 Gostaria de testar ?
+## 🚀 Gostaria de testar?
 
 - ### [Clique aqui](https://victorn7.github.io/IMC-CALCULADORA/)
 
-## 🗃Como baixar o código ?
+## 🗃Como baixar o código?
 
 #### Siga esse passo para baixar o código
 
