@@ -23,40 +23,43 @@
     <main>
         <div class="card-principal">
             <div class="div-titulo">
-                <h1 class="titulo">Calculadora IMC</h1>
+                <h1 class="titulo">IMC - Calculadora</h1>
             </div>
 
             <div class="card-calculadora">
+
                 <div class="card-form">
+
                     <form action="">
+
                         <div class="form-div">
 
                             <div class="input-group mb-4 entrada">
                                 <input type="text" class="form-control entrada1" id="entrada1" placeholder="Insira a altura"
                                     aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <span class="input-group-text" id="basic-addon2">M</span>
+                                <span class="input-group-text span-inputs" id="basic-addon2 span-inputs">M</span>
                             </div>
 
                             <div class="input-group mb-4 entrada">
                                 <input type="text" class="form-control entrada2" id="entrada2" placeholder="Insira o Peso"
                                     aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <span class="input-group-text" id="basic-addon2 span">KG</span>
+                                <span class="input-group-text span-inputs" id="basic-addon2 ">KG</span>
                             </div>
 
                             <div class="input-group mb-1 entrada">
-
-                                <input class="form-control" id="resultado" type="text" >
+                                <input class="form-control" id="resultado" type="text">
                             </div>
-                            <div class="btn-group botoes">
 
+                            <div class="btn-group botoes">
                                 <button type="submit" onclick="calculo(); return false;" class="btn btn-secondary"
                                     id="botao">Verificar</button>
+                            
                                 <button type="text" onclick="window.location.reload();" class="btn btn-danger"
                                     id="botao">Limpar</button>
-
                             </div>
 
                         </div>
+
                     </form>
                 </div>
                 <div class="classificacao">

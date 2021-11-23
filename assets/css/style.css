@@ -5,11 +5,12 @@
 
 /* --------Imagem de fundo do site-------- */
 
-body{
-    background-image: url("../img/background.jpg");
+.body-classe{
+    background-color: rgba(17, 17, 17, 0.904);
     background-size: 100%;
-} 
+}  
 
+/* --------------------------------------- */
 /* --------------------------------------- */
 .card-principal{
     background-color: rgb(194, 194, 194);
@@ -56,9 +57,8 @@ body{
 }
 
 #botao{
-    align-items: center;
     margin-top: 10px;
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 .entrada{
@@ -81,6 +81,12 @@ table tbody tr{
     margin-top: 20px;
     
 }
+.botoes{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 @media screen and (max-width: 800px){
     
     .card-calculadora{
@@ -98,9 +104,9 @@ table tbody tr{
         height: 200px;
     }
 
-    #botao{
+     #botao{
         margin-left: 20%;
-    }
+    } 
 
     .classificacao{
         font-size: 10px;
@@ -108,6 +114,9 @@ table tbody tr{
         width: 300px;
         margin-top: 20px;
         align-items: center;
+    }
+    #resultado{
+        font-size: 12px;
     }
 }
 
@@ -130,12 +139,10 @@ table tbody tr{
 
     #botao{
         width: 70px;
-        align-items: center;
         font-size: 12px;
+        margin-left: 15%;
     }
-    .botoes{
-        margin-left: 5%;
-    }
+
     .form-div{
         margin: 0px;
         padding: 10px;
@@ -146,17 +153,23 @@ table tbody tr{
     #entrada1{
         width: 70px;
         height: 30px;
+        font-size: 10px;
     }
     #entrada2{
         width: 70px;
         height: 30px;
+        font-size: 10px;
     }
     #resultado{
         width: 70px;
         height: 30px;
+        font-size: 10px;
     }
-    
-    span{
+
+    .span-inputs{
+        font-size: 10px;
+        align-items: center;
+        text-align: center;
         height: 30px;
     }
     .classificacao{
@@ -184,7 +197,7 @@ table tbody tr{
 
     .card-form{
         width: 200px;
-        height: 150px;
+        height: 170px;
         padding: 0%;
         margin-bottom:0px;
     }
@@ -194,9 +207,6 @@ table tbody tr{
         padding: 0 0 0 0;
         align-items: center;
         font-size: 10px;
-    }
-    .botoes{
-        margin-left: 5%;
     }
     #entrada1{
         width: 80px;
@@ -213,7 +223,7 @@ table tbody tr{
         height: 20px;
         font-size: 10px;
     }
-    span{
+    .span-inputs{
         height: 20px;
     }
     .classificacao{
